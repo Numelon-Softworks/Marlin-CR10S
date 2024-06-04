@@ -1,17 +1,31 @@
-<p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
+<p align="center"><img src="buildroot/share/pixmaps/logo/marlin-numelon-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
-<h1 align="center">Marlin 3D Printer Firmware</h1>
+<h1 align="center">Marlin 2.x for the Creality CR-10S</h1>
 
 <p align="center">
     <a href="/LICENSE"><img alt="GPL-V3.0 License" src="https://img.shields.io/github/license/marlinfirmware/marlin.svg"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/marlinfirmware/marlin.svg"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/releases"><img alt="Last Release Date" src="https://img.shields.io/github/release-date/MarlinFirmware/Marlin"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/actions"><img alt="CI Status" src="https://github.com/MarlinFirmware/Marlin/actions/workflows/test-builds.yml/badge.svg"></a>
-    <a href="https://github.com/sponsors/thinkyhead"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/thinkyhead?color=db61a2"></a>
+    <a href="https://github.com/Numelon-Softworks/Marlin-CR10S/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/numelon-softworks/marlin-cr10s.svg"></a>
+    <a href="https://github.com/sponsors/Numelon-Softworks"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/Numelon-Softworks"></a>
+    <a href="https://github.com/Numelon-Softworks/Marlin-CR10S/releases"><img alt="Last Release Date" src="https://img.shields.io/github/release-date/Numelon-Softworks/Marlin-CR10S"></a>
+    <!-- <a href="https://github.com/MarlinFirmware/Marlin/actions"><img alt="CI Status" src="https://github.com/MarlinFirmware/Marlin/actions/workflows/test-builds.yml/badge.svg"></a> -->
     <br />
-    <a href="https://fosstodon.org/@marlinfirmware"><img alt="Follow MarlinFirmware on Mastodon" src="https://img.shields.io/mastodon/follow/109450200866020466?domain=https%3A%2F%2Ffosstodon.org&logoColor=%2300B&style=social"></a>
 </p>
 
+**This README is currently under construction. 🤭**
+
+The name of this repository is quite self explanatory: Marlin-CR10S is Marlin 2.x firmware for the Creality CR-10S 3D Printer which, by default, has the Creality V2.2 Motherboard installed.
+
+## 🤔 Why?
+This repository was simply created due to the lack of availability of Marlin 2.x firmware for the original 8-bit motherboards that came with this 3D printer. It seems like most CR-10S users have moved on to upgraded 32-bit motherboards and essentially left the old 8-bit motherboard to rot with unsafe stock firmware with Marlin 1.x which poses fire safety risks and is just horrible in general.
+
+Additionally, even if firmware is available for the old 8-bit motherboards, some horrible human beings have decided to charge you money for it! (Outrageous, right?) Marlin is free, open-source, and it should be kept that way, with people willingly contributing to make the product better for themselves and sharing the improvements for the benefit of others who also want to make the most of their old hardware.
+
+## 😒 TL;DR
+**This repository aims to provide pre-built firmware images that can be instantly flashed to your CR-10S through the releases page.**
+
+Enjoy without the frustration of having to port Marlin 1.x configs to Marlin 2.x! 😆
+
+<!--
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
@@ -94,55 +108,12 @@ The Issue Queue is reserved for Bug Reports and Feature Requests. To get help wi
 
 Marlin is constantly improving thanks to a huge number of contributors from all over the world bringing their specialties and talents. Huge thanks are due to [all the contributors](https://github.com/MarlinFirmware/Marlin/graphs/contributors) who regularly patch up bugs, help direct traffic, and basically keep Marlin from falling apart. Marlin's continued existence would not be possible without them.
 
-## Administration
-
-Regular users can open and close their own issues, but only the administrators can do project-related things like add labels, merge changes, set milestones, and kick trolls. The current Marlin admin team consists of:
-
-<table align="center">
-<tr><td>Project Maintainer</td></tr>
-<tr><td>
-
- 🇺🇸  **Scott Lahteine**
-       [@thinkyhead](https://github.com/thinkyhead)
-       [<kbd>  Donate 💸  </kbd>](https://www.thinkyhead.com/donate-to-marlin)
-
-</td><td>
-
- 🇺🇸  **Roxanne Neufeld**
-       [@Roxy-3D](https://github.com/Roxy-3D)
-
- 🇺🇸  **Keith Bennett**
-       [@thisiskeithb](https://github.com/thisiskeithb)
-       [<kbd>  Donate 💸  </kbd>](https://github.com/sponsors/thisiskeithb)
-
- 🇺🇸  **Jason Smith**
-       [@sjasonsmith](https://github.com/sjasonsmith)
-
-</td><td>
-
- 🇧🇷  **Victor Oliveira**
-       [@rhapsodyv](https://github.com/rhapsodyv)
-
- 🇬🇧  **Chris Pepper**
-       [@p3p](https://github.com/p3p)
-
-🇳🇿  **Peter Ellens**
-       [@ellensp](https://github.com/ellensp)
-       [<kbd>  Donate 💸  </kbd>](https://ko-fi.com/ellensp)
-
-</td><td>
-
- 🇺🇸  **Bob Kuhn**
-       [@Bob-the-Kuhn](https://github.com/Bob-the-Kuhn)
-
- 🇳🇱  **Erik van der Zalm**
-       [@ErikZalm](https://github.com/ErikZalm)
-
-</td></tr>
-</table>
 
 ## License
+
+Marlin and this fork are published under the [GPL license](/LICENSE) because the Marlin Firmware team believes in open development. The GPL v3.0 License comes with both rights and obligations.
 
 Marlin is published under the [GPL license](/LICENSE) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver for your open or closed-source product, you must keep Marlin open, and you must provide your compatible Marlin source code to end users upon request. The most straightforward way to comply with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and direct users to your modified fork.
 
 While we can't prevent the use of this code in products (3D printers, CNC, etc.) that are closed source or crippled by a patent, we would prefer that you choose another firmware or, better yet, make your own.
+-->
