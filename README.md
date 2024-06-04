@@ -1,4 +1,4 @@
-<p align="center"><img src="buildroot/share/pixmaps/logo/marlin-numelon-500.png" height="250" alt="MarlinFirmware's logo" /></p>
+<p align="center"><img src="buildroot/share/pixmaps/logo/marlin-numelon-500.png" width="100%" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 2.x for the Creality CR-10S</h1>
 
