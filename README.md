@@ -16,7 +16,7 @@
 The name of this repository is quite self explanatory: Marlin-CR10S is Marlin 2.x firmware for the Creality CR-10S 3D Printer which, by default, has the Creality V2.2 Motherboard installed.
 
 ## 🤔 Why?
-This repository was simply created due to the lack of availability of Marlin 2.x firmware for the original 8-bit motherboards that came with this 3D printer. It seems like most CR-10S users have moved on to upgraded 32-bit motherboards and essentially left the old 8-bit motherboard to rot with unsafe stock firmware with Marlin 1.x which poses fire safety risks and is just horrible in general.
+This repository was simply created due to the lack of availability of Marlin 2.x firmware for the original 8-bit motherboards that came with this 3D printer. It seems like most CR-10S users have moved on to upgraded 32-bit motherboards and essentially left the old 8-bit motherboard to rot with unsafe, stock Marlin 1.x-based firmware which poses fire safety risks and general dissatisfaction.
 
 Additionally, even if firmware is available for the old 8-bit motherboards, some horrible human beings have decided to charge you money for it! (Outrageous, right?) Marlin is free, open-source, and it should be kept that way, with people willingly contributing to make the product better for themselves and sharing the improvements for the benefit of others who also want to make the most of their old hardware.
 
