@@ -4,21 +4,21 @@
 
 <p align="center">
     <a href="/LICENSE"><img alt="GPL-V3.0 License" src="https://img.shields.io/github/license/marlinfirmware/marlin.svg"></a>
-    <a href="https://github.com/Numelon-Softworks/Marlin-CR10S/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/numelon-softworks/marlin-cr10s.svg"></a>
-    <a href="https://github.com/sponsors/Numelon-Softworks"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/Numelon-Softworks"></a>
-    <a href="https://github.com/Numelon-Softworks/Marlin-CR10S/releases"><img alt="Last Release Date" src="https://img.shields.io/github/release-date/Numelon-Softworks/Marlin-CR10S"></a>
+    <a href="https://github.com/numelon-oss/Marlin-CR10S/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/numelon-oss/marlin-cr10s.svg"></a>
+    <!--<a href="https://github.com/sponsors/Numelon-Softworks"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/Numelon-Softworks"></a> -->
+    <a href="https://github.com/numelon-oss/Marlin-CR10S/releases"><img alt="Last Release Date" src="https://img.shields.io/github/release-date/numelon-oss/Marlin-CR10S"></a>
     <!-- <a href="https://github.com/MarlinFirmware/Marlin/actions"><img alt="CI Status" src="https://github.com/MarlinFirmware/Marlin/actions/workflows/test-builds.yml/badge.svg"></a> -->
     <br />
 </p>
 
 **This README is currently under construction. 🤭**
 
-The name of this repository is quite self explanatory: Marlin-CR10S is Marlin 2.x firmware for the Creality CR-10S 3D Printer which, by default, has the Creality V2.2 Motherboard installed.
+The name of this repository is quite self-explanatory: Marlin-CR10S is Marlin 2.x firmware for the Creality CR-10S 3D Printer which, by default, has the Creality V2.2 Motherboard installed.
 
 ## 🤔 Why?
 This repository was simply created due to the lack of availability of Marlin 2.x firmware for the original 8-bit motherboards that came with this 3D printer. It seems like most CR-10S users have moved on to upgraded 32-bit motherboards and essentially left the old 8-bit motherboard to rot with unsafe, stock Marlin 1.x-based firmware which poses fire safety risks and general dissatisfaction.
 
-Additionally, even if firmware is available for the old 8-bit motherboards, some horrible human beings have decided to charge you money for it! (Outrageous, right?) Marlin is free, open-source, and it should be kept that way, with people willingly contributing to make the product better for themselves and sharing the improvements for the benefit of others who also want to make the most of their old hardware.
+Additionally, even if firmware is available for the old 8-bit motherboards, some horrible human beings have decided to charge you money for it! (Outrageous, right?) Marlin is free and open-source, and it should be kept that way, with people willingly contributing to making the product better for themselves and sharing the improvements for the benefit of others who also want to make the most of their old hardware.
 
 ## 😒 TL;DR
 **This repository aims to provide pre-built firmware images that can be instantly flashed to your CR-10S through the releases page.**
